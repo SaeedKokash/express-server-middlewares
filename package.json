@@ -4,7 +4,8 @@
   "description": "a server for trying middlewares and testing",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "jest": "^29.0.2",
+    "nodemon": "^2.0.19",
     "supertest": "^6.2.4"
   }
 }
