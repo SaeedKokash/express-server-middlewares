@@ -2,7 +2,7 @@
   "name": "express-server-middlewares",
   "version": "1.0.0",
   "description": "a server for trying middlewares and testing",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
     "start": "nodemon server.js"
